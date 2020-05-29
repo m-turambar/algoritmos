@@ -31,4 +31,4 @@
 *.out
 *.app
 
-.\debuggy\cmake-build-debug
+debuggy
