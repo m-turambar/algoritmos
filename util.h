@@ -7,8 +7,8 @@ std::ostream& operator << (std::ostream& os, const std::vector<T>& v)
 {
 	os << "{";
 	for(auto& e : v)
-		os << e << " ";
-	os << "}";
+		os << e << "\t";
+	os << "}\n";
 	return os;
 }
 
